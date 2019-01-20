@@ -1,0 +1,145 @@
+img{
+    height: 400px;
+    width:300px;
+}
+html{
+    background: black;
+}
+h3 , p{
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+a :hover{
+    opacity: 0.5;
+    color:red;
+}
+.text1{
+    margin-left: 330px;
+    margin-top: -300px;
+    margin-bottom: 220px;
+}
+.header{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.enemy{
+    margin-left: 1020px;
+    margin-top:-400px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+.actions{
+    margin-left: 550px;
+    margin-top:-560px;
+    border: 1px solid white;
+    margin-right: 600px;
+    align-content: center;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    visibility: hidden;
+}
+.actions :hover{
+    color: green;
+}
+.interface{
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 10px;
+}
+.arena{
+    background-color: brown;
+    height:300px;
+    width: 450px;
+    margin-left: 420px;
+    visibility: hidden;
+    text-align:center;
+    font-size: 70px;
+    padding-left:25px;
+    padding-right: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*for mobile screens*/
+@media screen  and (max-width:900px)
+{
+    img{
+        height: 400px;
+        width:300px;
+    }
+    html{
+        background: black;
+    }
+    h3 , p{
+        color:white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    a :hover{
+        opacity: 0.5;
+        color:red;
+    }
+    .text1{
+        margin-left: 330px;
+        margin-top: -300px;
+        margin-bottom: 220px;
+    }
+    .header{
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .enemy{
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-left: 0px;
+        margin-top:50px;
+    }
+    .actions{
+        border: 1px solid white;
+        margin-top: 90px;
+        margin-left:70px;
+        align-content: center;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .actions :hover{
+        color: green;
+    }
+    .interface{
+        word-spacing: 5px;
+        letter-spacing: 2px;
+        line-height: 10px;
+    }
+    .arena{
+        margin-left:0px;
+        width:520px;
+        margin-top:-5px;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        visibility: hidden;
+        font-size: 70px;
+        padding-left:25px;
+        padding-right: 25px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
